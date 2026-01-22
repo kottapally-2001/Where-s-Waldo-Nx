@@ -1,0 +1,71 @@
+# =========================
+# Dependencies
+# =========================
+node_modules/
+.pnp/
+.pnp.js
+
+# =========================
+# Build outputs
+# =========================
+dist/
+build/
+out/
+.next/
+coverage/
+.tmp/
+.cache/
+
+# Nx specific
+.nx/
+nx-report.json
+
+# =========================
+# Logs
+# =========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# =========================
+# OS / Editor files
+# =========================
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# IntelliJ / WebStorm
+.idea/
+*.iml
+
+# =========================
+# TypeScript
+# =========================
+*.tsbuildinfo
+
+# =========================
+# Testing
+# =========================
+coverage/
+cypress/videos/
+cypress/screenshots/
+
+# =========================
+# Misc
+# =========================
+*.log
+*.swp
