@@ -1,8 +1,5 @@
 {
-  "projects": [
-    {
-      "rootDirectory": "frontend",
-      "framework": "vite"
-    }
-  ]
+  "framework": "vite",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist"
 }
