@@ -1,5 +1,8 @@
 {
-  "buildCommand": "npx nx build web",
-  "outputDirectory": "dist/apps/web",
-  "framework": "nextjs"
+  "projects": [
+    {
+      "rootDirectory": "frontend",
+      "framework": "vite"
+    }
+  ]
 }
